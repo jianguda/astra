@@ -1,0 +1,11 @@
+{
+    "model_name": "",
+    "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.layers.{}",
+    "lm_head_module": "lm_head",
+    "max_focus_tokens": 1000,
+    "layer_ratio": 0.25,
+    "epoch_num": 8,
+    "lr": 0.01,
+    "scale": 1
+}

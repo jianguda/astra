@@ -1,0 +1,18 @@
+{
+    "model_name": "",
+    "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.layers.{}",
+    "lm_head_module": "lm_head",
+    "max_focus_tokens": 1000,
+    "layer_ratio": 0.25,
+    "neuron_selection": "semantic",
+    "neuron_num": 64,
+    "null_space": "diagonal",
+    "margin": 5.0,
+    "max_rounds": 10,
+    "solve": "joint",
+    "ridge": 0.01,
+    "views": 4,
+    "attribution": "direct",
+    "tokens_ratio": 16.0
+}

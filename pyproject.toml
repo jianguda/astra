@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gap"
+version = "1.0.0"
+description = "ASTRA: analytic, neuron-level repair of code language models, and its evaluation"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Anonymous" }]
+dependencies = [
+  "numpy>=2.0",
+  "torch>=2.14",
+  "transformers>=5.17",
+  "huggingface_hub>=1.32",
+  "datasets>=5.0",
+  "sentencepiece",
+  "loguru>=0.7",
+  "tqdm>=4.66",
+  "peft>=0.20",
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+include = ["gap*"]
+
+[tool.setuptools.package-data]
+gap = ["repair/hparams/*/*.json"]

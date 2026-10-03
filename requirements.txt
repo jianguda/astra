@@ -1,0 +1,10 @@
+numpy>=2.0
+torch>=2.14
+transformers>=5.17
+huggingface_hub>=1.32
+datasets>=5.0
+sentencepiece
+loguru>=0.7
+tqdm>=4.66
+peft>=0.20
+pytest>=8
